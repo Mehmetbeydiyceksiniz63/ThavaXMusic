@@ -33,15 +33,16 @@ from ThavaXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 EMOJI = [
-    "💞",
-    "🔎",
-    "🔍",
-    "🧪",
+    "👣",
+    "🎙️",
+    "🎙️",
+    "🍾",
     "💣",
+    "🔥",
     "⚡️",
     "🔥",
-    "🕺",
-    "🎩",
+    "✨",
+    "👀",
     "🌈",
     "🍷",
     "🥂",
@@ -68,8 +69,8 @@ EMOJI = [
 @app.on_message(
     filters.command(
         [
-            "play",
-            "vplay",
+            "oynat",
+            "voynat",
             "cplay",
             "cvplay",
             "playforce",
