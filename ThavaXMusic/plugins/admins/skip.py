@@ -13,7 +13,7 @@ from ThavaXMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS, POWERED_BY
 
 @app.on_message(
-    filters.command(["skip", "cskip", "next", "cnext"]) & filters.group & ~BANNED_USERS
+    filters.command(["atla", "cskip", "next", "cnext"]) & filters.group & ~BANNED_USERS
 )
 @AdminRightsCheck
 async def skip(cli, message: Message, _, chat_id):
